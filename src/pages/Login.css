@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
+}
+
+.login-card {
+  width: 380px;
+  padding: 40px;
+
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+
+  text-align: center;
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.login-card h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  outline: none;
+  font-size: 16px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-card button:hover {
+  background: #1d4ed8;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
+}
+
+.login-box {
+  width: 380px;
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+
+  text-align: center;
+}
+
+.login-box h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 14px;
+
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #1d4ed8;
+}

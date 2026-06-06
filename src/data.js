@@ -1,0 +1,186 @@
+
+const data = [
+  {
+    id: 1,
+    name: "iPhone 16 Pro",
+    image:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ4l3cCKRX0FCHQsNbuAUs7pAW2qpApJ93m87prfERgN-7VC3NPOxBmkn1bMBV8aNnv3n8Ur-_gyxnfv_VaGVrIr3IiY6b-QxoH_3_4Sna9dwyVjK-GfNvfnA",
+    price: 129999,
+    originalPrice: 139999,
+    discount: "10% OFF",
+    rating: 4.8,
+    isBestSeller: true,
+    category: "Phones",
+  },
+
+  {
+    id: 2,
+    name: "Samsung S25 Ultra",
+    image:
+      "https://backend.paiinternational.in/media/images/2_cJMev3r.jpg",
+    price: 109999,
+    originalPrice: 120000,
+    discount: "35% OFF",
+    rating: 4.9,
+    isBestSeller: true,
+    category: "Phones",
+  },
+
+  {
+    id: 3,
+    name: "OnePlus 13",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_eWiJ4kuW4WG7GuMYoaal5h6dMBDVYDQNZQ&s",
+    price: 69999,
+    originalPrice: 79999,
+    discount: "15% OFF",
+    rating: 4.7,
+    isBestSeller: false,
+    category: "Phones",
+  },
+
+  {
+    id: 4,
+    name: "MacBook Air M4",
+    image:
+      "https://sm.pcmag.com/pcmag_me/review/a/apple-macb/apple-macbook-air-13-inch-2025-m4_1muf.jpg",
+    price: 124999,
+    originalPrice: 139999,
+    discount: "12% OFF",
+    rating: 4.9,
+    isBestSeller: true,
+    category: "Laptops",
+  },
+
+  {
+    id: 5,
+    name: "Dell XPS 15",
+    image:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+    price: 99999,
+    originalPrice: 115000,
+    discount: "10% OFF",
+    rating: 4.6,
+    isBestSeller: false,
+    category: "Laptops",
+  },
+
+  {
+    id: 6,
+    name: "AirPods Pro",
+    image:
+      "https://media.wired.com/photos/68d6f512a10e9fa625d46eac/master/w_2560%2Cc_limit/Review-%2520Apple%2520AirPods%2520Pro%25203.png",
+    price: 24999,
+    originalPrice: 29999,
+    discount: "20% OFF",
+    rating: 4.8,
+    isBestSeller: true,
+    category: "Accessories",
+  },
+
+  {
+  id: 15,
+  name: "Logitech MX Master 3S",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptGlgqEA5hlRJ4vJZqY2Ik7kEucq-AJOGkA&s",
+  price: 8999,
+  originalPrice: 10999,
+  discount: "18% OFF",
+  rating: 4.9,
+  isBestSeller: true,
+  category: "Accessories",
+},
+
+{
+  id: 14,
+  name: "Samsung Galaxy Tab S10",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptGlgqEA5hlRJ4vJZqY2Ik7kEucq-AJOGkA&s",
+  price: 54999,
+  originalPrice: 62999,
+  discount: "13% OFF",
+  rating: 4.6,
+  isBestSeller: false,
+  category: "Tablets",
+},
+
+{
+  id: 13,
+  name: "iPad Air",
+  image: "https://www.bbassets.com/media/uploads/p/l/1200053329_3-apple-ipad-air-m4-wi-fi-11-inch-128gb-starlight-2026-model.jpg",
+  price: 59999,
+  originalPrice: 64999,
+  discount: "8% OFF",
+  rating: 4.8,
+  isBestSeller: true,
+  category: "Tablets",
+},
+{
+  id: 12,
+  name: "Samsung Galaxy Watch 7",
+  image: "https://www.lifewire.com/thmb/p-PoGMjwRYk1hvm4HBxa_mkeShQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GalaxyWatch7-71695eb999c14fa6b155ec0b59ab7c79.jpg",
+  price: 29999,
+  originalPrice: 34999,
+  discount: "14% OFF",
+  rating: 4.7,
+  isBestSeller: false,
+  category: "Wearables",
+},
+{
+  id: 10,
+  name: "Boat Airdopes 141",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREtEVglGY-TB5gv6UNVVZgRG4tLfAYrXpCpg&s",
+  price: 1499,
+  originalPrice: 2499,
+  discount: "40% OFF",
+  rating: 4.3,
+  isBestSeller: false,
+  category: "Accessories",
+},
+{
+  id: 9,
+  name: "Sony WH-1000XM5",
+  image: "https://gameloot.in/wp-content/uploads/2023/07/Sony-WH-1000XM5-Wireless-Noise-Cancelling-Headphone-Black.jpg",
+  price: 27999,
+  originalPrice: 32999,
+  discount: "15% OFF",
+  rating: 4.9,
+  isBestSeller: true,
+  category: "Accessories",
+},
+{
+  id: 7,
+  name: "Lenovo Legion 5",
+  image: "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2023/05/lenovo-legion-pro-5-gen8-amd-review-01-1.JPG?w=1600&h=1600&fit=crop",
+  price: 89999,
+  originalPrice: 99999,
+  discount: "10% OFF",
+  rating: 4.7,
+  isBestSeller: true,
+  category: "Laptops",
+},
+{
+  id: 4,
+  name: "Google Pixel 9 Pro",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3l1Yg-CmC7GFJ0e5RmqBAJO8EF29DJwVjfQ&s",
+  price: 94999,
+  originalPrice: 104999,
+  discount: "10% OFF",
+  rating: 4.8,
+  isBestSeller: true,
+  category: "Phones",
+},
+
+{
+  id: 16,
+  name: "PlayStation 5",
+  image: "https://cdn.thewirecutter.com/wp-content/media/2024/11/choosingtherightps5-2048px-7960-3x2-1.jpg?auto=webp&quality=75&crop=4:3,smart&width=1024",
+  price: 54999,
+  originalPrice: 59999,
+  discount: "8% OFF",
+  rating: 4.9,
+  isBestSeller: true,
+  category: "Gaming",
+},
+];
+
+
+export default data;
