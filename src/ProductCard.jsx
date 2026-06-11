@@ -10,6 +10,8 @@ export default function ProductCard({
   rating,
   isBestSeller,
   addToCart,
+  isWishlisted,
+  toggleWishlist,
 }) {
   return (
     <div className="product-card">
@@ -25,6 +27,13 @@ export default function ProductCard({
           alt={name}
           className="product-image"
         />
+        <button
+          className={`wishlist-btn ${isWishlisted ? "active" : ""}`}
+          onClick={toggleWishlist}
+          title="Add to wishlist"
+        >
+          ♥
+        </button>
       </div>
 
       <div className="card-content">
