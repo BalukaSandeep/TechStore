@@ -1,16 +1,96 @@
-# React + Vite
+# 🛍️ TechStore – React E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TechStore is a modern React and Vite e-commerce application that delivers a streamlined shopping experience with product browsing, search, wishlist management, cart functionality, and authentication UI. It highlights reusable components, client-side routing, browser storage, and responsive layout design.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Visit the live demo](https://tech-store-nine-psi.vercel.app/)
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View the GitHub repository](https://github.com/BalukaSandeep)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Product listing
+- ✅ Product search
+- ✅ Add to Cart
+- ✅ Wishlist management
+- ✅ Shopping cart with quantity updates
+- ✅ Remove items from cart
+- ✅ Login page
+- ✅ Responsive design
+- ✅ React Router navigation
+- ✅ Local Storage persistence
+- ✅ Session Storage
+- ✅ Reusable React components
+
+## Tech Stack
+
+| Technology | Purpose |
+| --- | --- |
+| React.js | UI library |
+| Vite | Build tooling |
+| React Router | Client-side routing |
+| CSS | Styling and responsive layout |
+| Local Storage | Persist cart and wishlist state |
+| Session Storage | Temporary user state |
+
+## Screenshots
+
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+### 🔍 Product Search
+
+![Search](screenshots/search.png)
+
+### ❤️ Wishlist
+
+![Wishlist](screenshots/wishlist.png)
+
+### 🛒 Shopping Cart
+
+![Cart](screenshots/cart.png)
+
+### 🔐 Login
+
+![Login](screenshots/login.png)
+
+## Installation
+
+```bash
+git clone https://github.com/BalukaSandeep/TechStore.git
+cd TechStore
+npm install
+npm run dev
+```
+
+## Usage
+
+- Start the development server and open the local URL
+- Browse products, add items to the cart, and manage the wishlist
+- Use search to find products and navigate between app pages
+- Cart and wishlist state persist using browser storage
+
+## Future Enhancements
+
+- Backend API integration
+- JWT authentication
+- Payment gateway support
+- Order history tracking
+- Product reviews and ratings
+- Admin dashboard for inventory management
+
+## 👨‍💻 Author
+
+**Baluka Sandeep**
+
+GitHub: [https://github.com/BalukaSandeep]
+
+Vercel: [https://tech-store-nine-psi.vercel.app]
+
+## License
+
+This project is developed for educational and portfolio purposes.
