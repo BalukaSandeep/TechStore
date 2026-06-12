@@ -158,7 +158,7 @@ const data = [
   category: "Laptops",
 },
 {
-  id: 4,
+  id: 8,
   name: "Google Pixel 9 Pro",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3l1Yg-CmC7GFJ0e5RmqBAJO8EF29DJwVjfQ&s",
   price: 94999,

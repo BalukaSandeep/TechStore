@@ -36,28 +36,6 @@ TechStore is a modern React and Vite e-commerce application that delivers a stre
 | Local Storage | Persist cart and wishlist state |
 | Session Storage | Temporary user state |
 
-## Screenshots
-
-### 🏠 Home Page
-
-![Home](screenshots/home.png)
-
-### 🔍 Product Search
-
-![Search](screenshots/search.png)
-
-### ❤️ Wishlist
-
-![Wishlist](screenshots/wishlist.png)
-
-### 🛒 Shopping Cart
-
-![Cart](screenshots/cart.png)
-
-### 🔐 Login
-
-![Login](screenshots/login.png)
-
 ## Installation
 
 ```bash
